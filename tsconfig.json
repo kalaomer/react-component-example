@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "outDir": "dist",
+        "sourceMap": true,
+        "target": "es5",
+        "experimentalDecorators": true,
+        "jsx": "react"
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx",
+        "!node_modules/**/*.ts"
+    ],
+    "files": [
+        "./typings/node/node.d.ts",
+        "./typings/react/react.d.ts",
+        "./typings/react-dom/react-dom.d.ts",
+        "./typings/tsd.d.ts",
+        "./src/containers/index.ts",
+        "./src/containers/App/App.tsx",
+        "./src/components/index.ts",
+        "./src/components/Button/Button.tsx",
+        "./src/index.tsx"
+    ]
+}

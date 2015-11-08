@@ -1,0 +1,27 @@
+
+.root {
+    background: #fefefe;
+    border: 3px #444 dashed;
+
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: all .3s;
+
+    & .text {
+        font-size: 18px;
+        color: #444;
+        cursor: pointer;
+    }
+
+    &:hover {
+        background: #444;
+
+        & .text {
+            color: #fefefe;
+        }
+    }
+}
