@@ -2,7 +2,9 @@
 
 Basit bir şekilde ```Button``` isimli bir component oluşturulmuştur.
 
-Denemek için.
+### Örnek sayfayı görmek için [tıklayın](http://kalaomer.github.io/react-component-example/).
+
+Denemek için aşaıdaki talimatları takip edin.
 
 Gerekli paketler: ```nodejs``` vs ```npm```
 
