@@ -9,9 +9,6 @@ Denemek için aşaıdaki talimatları takip edin.
 Gerekli paketler: ```nodejs``` vs ```npm```
 
 ```
-# Gerekli dosyalar gh-pages branch içinde
-git checkout gh-pages
-
 # Gerekli paketleri kur
 npm install
 
