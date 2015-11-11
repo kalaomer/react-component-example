@@ -1,7 +1,8 @@
 
 import * as React from "react";
 
-let {Button} = require("components");
+import {Button} from "components";
+
 let styles = require("./app.scss");
 
 export class App extends React.Component<{}, {}> {
@@ -23,4 +24,3 @@ export class App extends React.Component<{}, {}> {
         );
     }
 }
-

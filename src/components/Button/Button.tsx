@@ -1,10 +1,7 @@
 
 import * as React from "react";
 
-interface Props {
-    children?: any;
-    onClick?(e: any): void;
-}
+import {Button as ButtonComponent} from "components";
 
 // Here is the magic! Don't touch it :P
 // Add Styles to bundle and get class names.
@@ -12,8 +9,8 @@ var styles: any = require("./button.scss");
 
 console.log(styles);
 
-export class Button extends React.Component<Props, {}> {
-    constructor(props: Props) {
+export class Button extends React.Component<ButtonComponent.Props, {}> {
+    constructor(props: ButtonComponent.Props) {
         super(props);
     }
 
