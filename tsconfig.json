@@ -11,19 +11,18 @@
         "jsx": "react"
     },
     "filesGlob": [
-        "./**/*.ts",
-        "./**/*.tsx",
-        "!node_modules/**/*.ts"
+        "./**/*.tsx?",
+        "!node_modules/**/*.tsx?"
     ],
     "files": [
-        "./typings/node/node.d.ts",
-        "./typings/react/react.d.ts",
-        "./typings/react-dom/react-dom.d.ts",
-        "./typings/tsd.d.ts",
-        "./src/containers/index.ts",
-        "./src/containers/App/App.tsx",
         "./src/components/index.ts",
+        "./src/containers/index.ts",
+        "./typings/node/node.d.ts",
+        "./typings/react-dom/react-dom.d.ts",
+        "./typings/react/react.d.ts",
+        "./typings/tsd.d.ts",
         "./src/components/Button/Button.tsx",
+        "./src/containers/App/App.tsx",
         "./src/index.tsx"
     ]
 }
